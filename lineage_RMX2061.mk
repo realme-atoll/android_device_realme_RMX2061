@@ -40,12 +40,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=RMX2061 \
     SystemName=RMX2061
 
-
-# Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Blur
-TARGET_ENABLE_BLUR := true
-
 # OMX
 TARGET_SUPPORTS_OMX_SERVICE := false
