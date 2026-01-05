@@ -27,6 +27,6 @@
    {
     "repository": "hardware_dolby",
     "target_path": "hardware/dolby",
-    "branch": "bka"
+    "branch": "bka-aospa"
   }
 ]
