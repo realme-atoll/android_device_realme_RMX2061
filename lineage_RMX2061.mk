@@ -40,3 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2061 \
     SystemDevice=RMX2061 \
     SystemName=RMX2061
+
+# EvolutionX flags
+TARGET_USES_MINI_GAPPS := true
