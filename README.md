@@ -26,4 +26,4 @@ The Realme 6 Pro (codenamed _"RMX2061"_) is a mid-range smartphone from Realme l
 
 ## Device picture
 
-![Realme 6 Pro](https://fdn2.gsmarena.com/vv/bigpic/realme-6-pro.jpg)
+![Realme 6 Pro](https://raw.githubusercontent.com/realme-atoll/.github/main/profile/assets/realme-6-pro.jpg)
