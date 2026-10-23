@@ -10,30 +10,28 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Bootanimation Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit some common Lineage stuff
+# Disable fingerprint override — set before inherit
+TARGET_ENABLE_FP_OVERRIDE := false
 
-# Target
-TARGET_SUPPORTS_QUICK_TAP := true
+# Enable ADB in userdebug builds — set before inherit
+ifneq ($(TARGET_BUILD_VARIANT),user)
+WITH_ADB_INSECURE := true
+endif
 
-# EvolutionX flags
-TARGET_USES_MINI_GAPPS := true 
-
-# Inherit some common lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
 PRODUCT_NAME := lineage_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX2061
+PRODUCT_MODEL := realme 6 Pro
 PRODUCT_MANUFACTURER := realme
 
 PRODUCT_SYSTEM_NAME := RMX2061
 PRODUCT_SYSTEM_DEVICE := RMX2061
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
-
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="RMX2061-user 11 RKQ1.201112.002 1649930822295 release-keys" \
@@ -42,6 +40,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2061 \
     SystemDevice=RMX2061 \
     SystemName=RMX2061
-
-# OMX
-TARGET_SUPPORTS_OMX_SERVICE := false

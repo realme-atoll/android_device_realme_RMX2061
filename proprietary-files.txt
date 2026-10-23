@@ -123,10 +123,6 @@ vendor/lib64/libsndmonitor.so
 vendor/lib64/libspkrprot.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
-vendor/lib/libssrec.so
-vendor/lib64/libssrec.so
-odm/lib/libqtigef.so
-odm/lib64/libqtigef.so
 
 # Audio HAL
 vendor/lib/hw/audio.primary.atoll.so

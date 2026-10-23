@@ -1,2 +1,3 @@
-# Display
-vendor.display.svi.config_path=/vendor/etc/svi_config_19720.xml
+# Fingerprint (Side Capacitive FPS)
+ro.hardware.fp.side=true
+ro.hardware.fp.udfps=false
