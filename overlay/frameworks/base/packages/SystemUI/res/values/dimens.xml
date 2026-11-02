@@ -1,5 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024-2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
 <resources>
-    <!-- Location of physical power button -->
+    <!-- Location of physical power button and side fingerprint sensor -->
     <dimen name="physical_power_button_center_screen_location_y">905px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">905px</dimen>
+
+    <!-- Vertical padding for status bar icons in 108px bar -->
+    <dimen name="status_bar_padding_top">4dp</dimen>
+
+    <!-- Margin on left side of heads up notification to clear 261px dual-hole pill -->
+    <dimen name="heads_up_status_bar_padding_start">265px</dimen>
+
+    <!-- Margin on right side of center clock to balance dual-hole notch asymmetry -->
+    <dimen name="status_bar_center_clock_padding_end">205px</dimen>
+
+    <!-- Bottom margin size on keyguard (standard clearance for side-FPS without UDFPS icon) -->
+    <dimen name="keyguard_indication_margin_bottom">80dp</dimen>
+
+    <!-- Top padding of QS panel to align unexpanded QS clock with shallow notch -->
+    <dimen name="qs_panel_padding_top">68dp</dimen>
+    
 </resources>
