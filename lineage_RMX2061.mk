@@ -14,6 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 TARGET_ENABLE_FP_OVERRIDE := false
 
 # Inherit some common Lineage stuff
+ifeq ($(TARGET_INCLUDE_OPLUS_CAMERA),true)
+PRODUCT_NO_CAMERA := true
+endif
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
