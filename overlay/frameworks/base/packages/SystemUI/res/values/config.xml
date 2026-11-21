@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021-2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
+    <!-- Expand black protection ring around dual front punch-hole camera when active -->
+    <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <string name="config_protectedCameraId" translatable="false">1</string>
+    <string name="config_frontBuiltInDisplayCutoutProtection" translatable="false">M 64,9 h 124 a 45,45 0 0 1 0,90 h -124 a 45,45 0 0 1 0,-90 Z</string>
+</resources>
