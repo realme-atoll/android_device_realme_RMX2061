@@ -38,3 +38,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2061 \
     SystemDevice=RMX2061 \
     SystemName=RMX2061
+
+# Lunaris AOSP flags
+WITH_GMS := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lunaris.maintainer=Nikhil\ Suryavanshi
