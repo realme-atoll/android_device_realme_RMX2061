@@ -38,3 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2061 \
     SystemDevice=RMX2061 \
     SystemName=RMX2061
+
+# crDroid flags
+WITH_GMS := true

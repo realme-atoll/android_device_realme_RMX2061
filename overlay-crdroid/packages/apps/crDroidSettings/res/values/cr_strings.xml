@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-2026 crDroid Android Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Build details -->
+    <string name="build_maintainer_summary" translatable="false">Nikhil Suryavanshi</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://t.me/nikhilpal2705</string>
+</resources>
